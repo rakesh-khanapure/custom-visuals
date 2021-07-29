@@ -1,0 +1,36 @@
+.customBox {
+    padding: 5px 10px;
+    .optionsContainer{
+        text-align: left;
+        padding: 5px 0px;
+        .toggleDiv {
+            display: inline-block;
+            padding-right: 10px;;
+        }
+    }
+
+
+    .plotContainer{
+        display: flex;
+        align-items: flex-start;
+        .treatmentFilterContainer{
+            display: flex;
+            flex-flow: row wrap;
+            width: 110px;
+            margin: 0 10px;
+            button{
+                &:focus{
+                    outline: 0;
+                    box-shadow: none;
+                }
+                width: 40px;
+                border-radius: 0;
+            }
+            
+        }
+    }
+}
+
+.treatment-plot{
+    width: 100%;
+}
